@@ -1,0 +1,250 @@
+span.invisible {
+  visibility: hidden;
+}
+
+.video-area {
+    background-color: $primary-color;
+    flex: 1;
+    display: grid;
+  }
+
+  .grid {  
+    grid-template-areas: 
+                "page-message"
+                "v-1"
+                "v-2" 
+                "v-3"
+                "v-4"
+                "v-5"
+                "v-6"
+                "v-7" 
+                "v-8"
+                "v-9"
+                "v-10" 
+                "v-11"
+                "v-12"
+                "v-13"
+                "v-14"
+                "v-15" 
+                "v-16";
+                // "v-17"
+                // "v-18" 
+                // "v-19"
+                // "v-20"
+                // "v-21"
+                // "v-22"
+                // "v-23" 
+                // "v-24";
+    grid-template-columns: 100%;
+    grid-auto-rows: auto;
+    
+    
+    
+  }
+    .item {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: $dropdown-height-sm auto;
+      background-color: $dropdown-color;
+    //   height: 20%
+      // transition: height 1s;
+    }
+    .item .text {
+        display: grid;
+        // grid-template-rows: 20px auto;
+        justify-content: center;
+        overflow: none;
+        border: $border-width solid black;
+        // border-top: $border-width solid $primary-color;
+        // border-bottom: $border-width solid $primary-color;
+        
+        h4 {
+          text-transform: uppercase;
+          font-size: 1rem;
+          display: none;
+          /* padding-top: 3px; */
+        }
+                    
+        .icon {
+          text-align: center;
+          position: relative;
+          top: -1px;
+          
+        }
+
+        
+
+        
+        //ASK OWEN ABOUT THIS
+        .icon:hover i{
+          transform: scale(1.1);
+        }
+
+    }
+
+    
+    .video {
+      background: $dropdown-color;
+      position: relative;
+      height: 0;
+      padding-top: 56.25%;
+      overflow: hidden;
+
+      iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+    }  
+  
+  /* APPLY BELOW STYLES WHEN BUTTON CLICKED */
+
+.item1 {
+    // display: grid;
+    // grid-template-columns: 1fr;
+    // grid-template-rows: 100% 0px;
+    background-color: $dropdown-color;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: stretch;
+    min-height: 180px + $dropdown-height-sm;
+    // min-height: 204px;
+    // min-height:350.17px;
+    // transition: height 0.5s;
+  }
+  
+  
+  .video1 {
+    padding-top: 0;
+    height: 100%;
+    background: green;
+    flex-basis: 0px;
+    opacity: 0;
+  }
+  
+  
+  .text1 {
+    display:grid;
+    // grid-template-rows: auto 30px;
+    // grid-template-rows: 200px auto;
+    // transition: grid-template-rows 2s;
+    // align-items: center; 
+    text-align: center;
+    flex-basis: 100%;
+
+    
+  
+    h4 {
+      display: block !important;
+      // margin-top: 6px;
+    }
+  
+  }
+  
+  p {
+    display: none;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .active {
+    display: block;
+    // background: blue;
+    
+  }
+  
+  #page-message {
+    grid-area: page-message;
+    // display: flex;
+    // justify-content: center;
+    // flex-flow: row wrap;
+    min-height: 196px;
+  
+    background-color: $menu-color;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-size: 1.5rem;
+    // height: 300px;
+    // border: $border-width solid black;
+    // margin-left: 8px;
+    align-items: center;
+    justify-content: center;
+    // pointer-events: none;
+    
+    h3 {
+      font-size: 17px;
+      align-self: center;
+      margin-top: 10px;
+    }
+
+    h4 {
+      font-size: 15px;
+      align-self: center;
+     
+    }
+
+    p {
+      display: block;
+      font-size: 14px;
+      padding: 2px 10px;
+    }
+    p:hover {
+      cursor: auto !important;
+    }
+    img {
+      width: 66%;
+      margin-top: 10px;
+      height: auto;
+      align-self: center;
+      min-width: 225px;
+      max-width: 400px;
+    }
+    #mobile-img {
+      width: 10%;
+      height: auto;
+    }
+  }
+  
+  #cropped-vid1, #cropped-vid10 {
+    // background: #9aa6ea;
+    background: black;
+  }
+  
+  #cropped-vid8 {
+    // background: #8e1c0b;
+    background: white;
+  }
+  
+  // #cropped-vid10 {
+  //   // background: #3FBF3F;
+  //   background: black;
+  // }
+
+   
+  // //'VIDEO NOT AVAILABLE' image to replace iframe image
+  // #text-id1 {
+  //   background-image: url('http://www.rojgaracademy.org/images/NoVideoAvailable.png');
+  //   background-position: center;
+  // }
+
+  // Add classList when touched
+
+  .touched {
+    // background-color: darken($grey, 15%);
+    background-color: $grey;
+  }
+
+  .hovered {
+    background-color: pink;
+  }
+
+  @media screen and (max-width: 225px){
+    #page-message img {
+      display: none;
+    }
+  }

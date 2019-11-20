@@ -1,0 +1,27 @@
+{
+  "name": "owen_shirley",
+  "version": "1.0.0",
+  "description": "portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "David Hill",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.1",
+    "gulp-uglifycss": "^1.1.0",
+    "node-sass": "^4.11.0"
+  },
+  "homepage": "https://ukdavehill/github.io/owenshirley",
+  "dependencies": {
+    "gh-pages": "^2.1.1",
+    "imagemin": "^7.0.1"
+  }
+}

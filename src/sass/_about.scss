@@ -1,0 +1,124 @@
+#about {
+        background-color: $primary-color;
+        // flex: 1;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        // max-width: 600px;
+        // overflow-x: none;
+        
+        // margin-left: $menu-width + 17px;
+        height: 100%;
+        // main {
+        //     display: flex;
+        //     justify-content: center;
+        //     flex-flow: row wrap;
+
+        // }
+
+        // .signature {
+        //     margin: 10px 0;
+        //     // width: 75%;
+        //     height: auto;
+        //     display: flex;
+        //     justify-content: center;
+        //     // flex: 1; 
+        //     img {
+        //         // flex: 0 1 75%;
+        //         // height 600px;
+        //         width: 70%;
+        //         min-width: 200px;
+        //     } 
+        // }
+
+        section {
+            display: flex;
+            justify-content: center;
+            flex-flow: column nowrap;
+            width: 85%;
+            
+        }
+        section h2 {
+            padding-left: 10px;
+        }
+
+        section p {
+            display: block;
+            padding: 10px 0;
+            // text-align: center;
+        }
+
+        section p:first-child {
+            padding-top: 40px;
+        }
+
+        .photo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            width: 85%;
+           
+            img{
+                // height: 200px;
+                // width: auto;
+                display: block;  
+                height: auto;
+                width: 100%; 
+                
+            }
+            p.wp-caption-text {
+                color: #FFF;
+                background: #222;
+                font-size: 12px;
+                font-weight: 300;
+                letter-spacing: 2px;
+                line-height: 21px;
+                text-transform: uppercase;
+                margin: 0;
+                padding: 10px 0 5px;
+                display: block;
+                text-align: center;
+                margin-bottom: 30px;
+                width: 100%;
+            }
+
+        }
+        
+}
+
+// @media screen and (min-width: 500px) {
+//     #about .signature img {
+//         width: 100%;
+//     }
+// }
+
+
+
+@media screen and (min-width: 650px) {
+    #about section {
+        width: 75%;
+    }
+}
+
+// @media screen and (max-width: 300px) {
+//     #about .signature img {
+//         display: none;
+//     }
+//     section p:first-child {
+//         margin-top: 30px;
+//     }
+// }
+
+@media screen and (min-width: 650px) {
+    #about section {
+        width: 75%;
+    }
+    #about .photo {
+        width: 75%;  
+        // height: 100px;
+    }
+}
+
+
+
