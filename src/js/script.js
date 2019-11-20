@@ -242,7 +242,10 @@
         
         
         <div class = "video" id="${video.id}">
-            <!-- <iframe
+        <img class="imgiframe"src="https://img.youtube.com/vi/J9mjbzqqA_M/default.jpg" alt="">
+            
+        
+        <!-- <iframe
                 src="${video.name}"
                 loading="lazy"
                 frameborder="0"
