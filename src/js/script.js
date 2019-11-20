@@ -242,16 +242,16 @@
         
         
         <div class = "video" id="${video.id}">
-        <img class="imgiframe"src="https://img.youtube.com/vi/J9mjbzqqA_M/default.jpg" alt="">
+        <!--  <img class="imgiframe"src="https://img.youtube.com/vi/J9mjbzqqA_M/default.jpg" alt=""> -->
             
         
-        <!-- <iframe
-                src="${video.name}"
+        <iframe
+                src="https://www.youtube.com/embed/J9mjbzqqA_M"
                 loading="lazy"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
-            ></iframe> -->
+            ></iframe>
         </div>
     </div>	`
             })
