@@ -242,13 +242,13 @@
         
         
         <div class = "video" id="${video.id}">
-            <iframe
+            <!-- <iframe
                 src="${video.name}"
                 loading="lazy"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
-            ></iframe>
+            ></iframe> -->
         </div>
     </div>	`
             })
