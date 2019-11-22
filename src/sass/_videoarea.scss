@@ -83,14 +83,14 @@ span.invisible {
     }
 
     
-    .video {
+    .video{
       background: $dropdown-color;
       position: relative;
       height: 0;
       padding-top: 56.25%;
       overflow: hidden;
 
-      iframe, .imgiframe {
+      iframe,  {
         position: absolute;
         top: 0;
         left: 0;

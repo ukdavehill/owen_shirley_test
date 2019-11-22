@@ -242,16 +242,16 @@
         
         
         <div class = "video" id="${video.id}">
-        <a href="https://www.bbc.co.uk/"><img class="imgiframe"src="https://img.youtube.com/vi/J9mjbzqqA_M/default.jpg" alt=""></a> 
+        <!--<a href="https://www.bbc.co.uk/"><img class="imgiframe"src="https://img.youtube.com/vi/J9mjbzqqA_M/default.jpg" alt=""></a> -->
             
         
-        <!-- <iframe
-                src="https://www.youtube.com/embed/g7N8sG1VahQ"
+        <a><iframe
+                src="${video.name}"
                 loading="lazy"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
-            ></iframe>-->
+            ></iframe></a>
         </div>
     </div>	`
             })
