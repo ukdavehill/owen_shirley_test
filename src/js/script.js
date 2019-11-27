@@ -251,7 +251,7 @@
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
-            ><meta name="robots" content="noindex, nofollow"></iframe>
+            ><head><meta name="robots" content="noindex, nofollow"></head></iframe>
         </div>
     </div>	`
             })
