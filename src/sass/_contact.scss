@@ -1,3 +1,76 @@
+#contact {
+    display: flex;
+    background-color: $primary-color;
+    // background-color: black;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 100%;
+    // overflow-y: auto;
+
+    // main {
+    //     display: flex;
+    //     justify-content: center;
+    //     flex-flow: row wrap;
+
+    // }
+    // margin-left: $menu-width + 17px;
+    // .signature {
+    //     margin: 10px 0;
+    //     // width: 75%;
+    //     height: auto;
+    //     display: flex;
+    //     justify-content: center;
+    //     // flex: 1; 
+    //     img {
+    //         // flex: 0 1 75%;
+    //         // height 600px;
+    //         width: 70%;
+    //         min-width: 200px;
+    //     } 
+    // }
+
+    section {
+        display: flex;
+        justify-content: center;
+        flex-flow: column nowrap;
+        width: 85%;
+        
+    }
+    section p {
+        display: block;
+        padding: 10px 0;
+    }
+
+    section p:first-child {
+        padding-top: 40px;
+    }
+    
+
+    // section h2 {
+    //     padding-left: 10px;
+    // }
+    .soundcloud-container {
+        width: 85%;
+        margin-bottom: 20px;
+        
+        // height: 100px;
+    }
+}
+
+// @media screen and (min-width: 500px) {
+//     #music .signature img {
+//         width: 100%;
+//     }
+// }
+
+@media screen and (min-width: 650px) {
+    #contact section {
+        width: 75%;
+    }
+    
+}
+
+
 // #contact {
 //     display: flex;
 //     background-color: $primary-color;
