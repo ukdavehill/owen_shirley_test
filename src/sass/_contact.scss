@@ -4,14 +4,14 @@
     // background-color: black;
     flex-flow: row wrap;
     justify-content: center;
-    height: 100vh;
+    height: 100%;
     align-items: center;
     // margin-left: $menu-width + 17px;
     // overflow-y: auto;
 
     main {
         height: 100vh;
-        align-items: center;
+        
     }
 
    
@@ -35,8 +35,10 @@
     
     section {
         // margin-top: -80px;
-        
+        display: flex;
         padding: 30px;
+        flex-direction: column;
+        justify-content: center;
         // border: 1px solid #999;
         // border-radius: 2%;
         // box-shadow: 1px 1px 1px black;
@@ -45,8 +47,9 @@
     }
     section p {
         display: block;
+        
         font-size: 24px;
-        margin: 5px 0;
+        margin: 3px 0;
     }
     
 
