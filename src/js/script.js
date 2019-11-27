@@ -245,13 +245,13 @@
         <!--<a href="https://www.bbc.co.uk/"><img class="imgiframe"src="https://img.youtube.com/vi/J9mjbzqqA_M/default.jpg" alt=""></a> -->
             
         
-        <a><iframe
+            <iframe
                 src="${video.name}"
                 loading="lazy"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
-            ></iframe></a>
+            ><meta name="robots" content="noindex, nofollow"></iframe>
         </div>
     </div>	`
             })
