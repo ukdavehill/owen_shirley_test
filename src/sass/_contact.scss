@@ -1,64 +1,67 @@
-#contact {
-    display: flex;
-    background-color: $primary-color;
-    // background-color: black;
-    flex-flow: row wrap;
-    justify-content: center;
-    height: 100%;
-    align-items: center;
-    // margin-left: $menu-width + 17px;
-    // overflow-y: auto;
+// #contact {
+//     display: flex;
+//     background-color: $primary-color;
+//     // background-color: black;
+//     flex-flow: row wrap;
+//     justify-content: center;
+//     height: 100%;
+//     width: 85%;
+//     align-items: center;
 
-    main {
-        height: 100vh;
+//     // margin-left: $menu-width + 17px;
+//     // overflow-y: auto;
+
+//     main {
+//         height: 100vh;
         
-    }
+//     }
 
    
 
-    // .signature {
-    //     margin: 10px 0;
-    //     // width: 75%;
-    //     height: auto;
-    //     display: flex;
-    //     justify-content: center;
-    //     width: 100%;
-    //     // flex: 1; 
-    //     img {
-    //         // flex: 0 1 75%;
-    //         // height 600px;
-    //         width: 70%;
-    //         min-width: 200px;
-    //     } 
-    // }
+//     // .signature {
+//     //     margin: 10px 0;
+//     //     // width: 75%;
+//     //     height: auto;
+//     //     display: flex;
+//     //     justify-content: center;
+//     //     width: 100%;
+//     //     // flex: 1; 
+//     //     img {
+//     //         // flex: 0 1 75%;
+//     //         // height 600px;
+//     //         width: 70%;
+//     //         min-width: 200px;
+//     //     } 
+//     // }
 
     
-    section {
-        // margin-top: -80px;
-        display: flex;
-        padding: 30px;
-        flex-direction: column;
-        justify-content: center;
-        // border: 1px solid #999;
-        // border-radius: 2%;
-        // box-shadow: 1px 1px 1px black;
-        // margin: 0 5px;
+//     section {
+//         // margin-top: -80px;
+//         display: flex;
+//         padding: 30px;
+//         flex-flow: column wrap;
+//         justify-content: center;
+//         width: 100%;
+//         // border: 1px solid #999;
+//         // border-radius: 2%;
+//         // box-shadow: 1px 1px 1px black;
+//         // margin: 0 5px;
         
-    }
-    section p {
-        display: block;
+//     }
+//     section p {
+//         display: block;
         
-        font-size: 24px;
-        margin: 3px 0;
-    }
+//         font-size: 24px;
+//         margin: 3px 0;
+//     }
     
 
-    section h2 {
-        padding-left: 10px;
-        font-size: 30px;
-    }
+//     section h2 {
+//         padding-left: 10px;
+//         font-size: 30px;
+//     }
     
-}
+// }
 
 @media screen and (min-width: 800px) {
     #contact .signature {
